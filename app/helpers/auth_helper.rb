@@ -4,9 +4,9 @@ require 'base64'
 module AuthHelper
 
   # App's client ID. Register the app in Azure AD to get this value.
-  CLIENT_ID = 'c6a436bb-bb95-45ba-98b2-34f3f90b64f4'
+  CLIENT_ID = ''
   # App's client secret. Register the app in Azure AD to get this value.
-  CLIENT_SECRET = 'GmgAag2eZW2ju9eykOvN80C'
+  CLIENT_SECRET = ''
 	
 	# Scopes required by the app
 	SCOPES = [ 'openid', 'https://outlook.office.com/contacts.readwrite']
